@@ -107,4 +107,5 @@ You can delete items by clicking on it, items will **not** be saved upon reload.
 </script>
 ```
 
-
+## License
+[MIT License](https://oss.ninja/mit/0x66you) © Yeh,Chun-Chen
