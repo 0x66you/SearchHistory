@@ -1,7 +1,7 @@
 ## Overview
 What the user types in the search bar will be saved to list below (Search History).<br/>
 Three files above are identical in execution, only difference is the approach.<br/>
-You can delete items by clicking on it, items will **not** be saved upon reload.
+You can delete items by clicking on it, items will **NOT** be saved upon reload.
 
 ### Approach 1
 ```html
@@ -33,7 +33,7 @@ You can delete items by clicking on it, items will **not** be saved upon reload.
 </script>
 ```
 ### Approach 2 
-**same searches wont register twice** (see code snippet below)
+same searches will **NOT** register twice (see code snippet below)
 ```html
 <div id="app" ...>
     <todo v-model="out"></todo>
@@ -70,7 +70,7 @@ You can delete items by clicking on it, items will **not** be saved upon reload.
 ```
 
 ### Approach 3
-**no attributes needed in &#60;todo&#62; tag**
+no attributes needed in &#60;todo&#62; tag
 ```html
 <div id="app" class="container mt-3">
     <todo></todo>
